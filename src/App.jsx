@@ -2,6 +2,12 @@ import { useState } from 'react'
 import './App.css'
 import lipstick from "./assets/images/lipstick.jpg";
 import foundation from "./assets/images/foundation.jpg";
+import blush from "./assets/images/blush.jpg";
+import liner from "./assets/images/liner.jpg";
+import high from "./assets/images/high.jpg";
+import eye from "./assets/images/eye.jpg";
+import skin from "./assets/images/skin.jpg";
+
 
 
 function App() {
@@ -234,7 +240,7 @@ function App() {
             <p style={{ marginTop: '10px', fontWeight: '600', color: '#800000' }}>Foundation</p>
           </div>
 
-          {/* liners */}
+          {/* liner */}
           <div style={{ textAlign: 'center', cursor: 'pointer' }}>
             <div style={{
               width: '80px',
@@ -248,7 +254,7 @@ function App() {
               justifyContent: 'center',
               fontSize: '40px'
             }}>
-              💄
+              <img src={liner} style={{width: "100px", height: "100px"}}/>
             </div>
             <p style={{ marginTop: '10px', fontWeight: '600', color: '#800000' }}>Liners</p>
           </div>
@@ -267,7 +273,7 @@ function App() {
               justifyContent: 'center',
               fontSize: '40px'
             }}>
-              💄
+              <img src={eye} style={{width: "100px", height: "100px"}}/>
             </div>
             <p style={{ marginTop: '10px', fontWeight: '600', color: '#800000' }}>Eye Shadow</p>
           </div>
@@ -286,7 +292,7 @@ function App() {
               justifyContent: 'center',
               fontSize: '40px'
             }}>
-              💄
+              <img src={high} style={{width: "100px", height: "100px"}}/>
             </div>
             <p style={{ marginTop: '10px', fontWeight: '600', color: '#800000' }}>Highlighter</p>
           </div>
@@ -305,7 +311,7 @@ function App() {
               justifyContent: 'center',
               fontSize: '40px'
             }}>
-              💄
+              <img src={blush} style={{width: "100px", height: "100px"}}/>
             </div>
             <p style={{ marginTop: '10px', fontWeight: '600', color: '#800000' }}> Blush </p>
           </div>
@@ -324,7 +330,7 @@ function App() {
               justifyContent: 'center',
               fontSize: '40px'
             }}>
-              💄
+              <img src={skin} style={{width: "100px", height: "100px"}}/>
             </div>
             <p style={{ marginTop: '10px', fontWeight: '600', color: '#800000' }}>Skincare</p>
           </div>
