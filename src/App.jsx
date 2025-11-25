@@ -8,8 +8,6 @@ import high from "./assets/images/high.jpg";
 import eye from "./assets/images/eye.jpg";
 import skin from "./assets/images/skin.jpg";
 
-import { useState } from 'react'
-import './App.css'
 import { auth, googleProvider } from './firebase'
 import { signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from 'firebase/auth'
 
